@@ -4,6 +4,13 @@
 
 h1 {
     font-family: 'Pokemon Solid', sans-serif;
+    color: #FFCC00;
+}
+
+body
+
+{
+    font-family: 'Pokemon Solid', sans-serif; 
 }
 
 .pokemon-list {
@@ -33,6 +40,8 @@ h1 {
     padding: 1.5rem;
     margin: 0.5rem;
     border-radius: 5px;
+    background-color: #3961f0;
+    color: #FFCC00;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     cursor: pointer;
     font-weight: 600;
@@ -63,11 +72,7 @@ h1 {
     visibility: hidden;
 }
 
-.nav-logo {
-    object-fit: cover;
-    height: 40px;
-    width: 150px;
-}
+
 
 @media all and (max-width: 720px) {
     .pokemon-list>li {
